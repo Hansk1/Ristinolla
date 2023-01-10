@@ -11,7 +11,6 @@ def tulostaRuudukko(RUUDUKKO):
     return None
 
 
-
 def kysyRuutu(Vuoro):
     if Vuoro == "X":
         Syote = input("X: Vuoro, valitse ruutu: ")
@@ -21,7 +20,6 @@ def kysyRuutu(Vuoro):
         Syote = input("Valittu ruutu on käytetty, valitse uusi ruutu: ")
     
     return Syote
-  
   
   
 def tarkistetaanVoitto(Ruudukko):
